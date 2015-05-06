@@ -1,0 +1,199 @@
+﻿html body div span aside main article p {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+#firstchild {
+    background: #F1F1F1;
+    width: 57.5%;
+    height: 560px;
+    border: 1px solid black;
+    position: relative;
+}
+
+#right {
+    border: 0px;
+    position: absolute;
+    top: 2px;
+    margin-left: 82%;
+}
+
+.label {
+    display: block;
+    text-align: center;
+    background: gray;
+    color: white;
+    font-family: calibri;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 5px;
+    height: 12px;
+}
+
+[type="text"] {
+    margin-left: 3px;
+}
+
+h2 {
+    margin-top: 11px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    vertical-align: bottom;
+}
+
+p {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-top: 0.5em;
+}
+
+aside {
+    position: relative;
+    height: 100%;
+    width: 150px;
+}
+
+main {
+    padding-right: 5px;
+    padding-left: 5px;
+    position: absolute;
+    border: 1px solid gray;
+    width: 60.5%;
+    height: 94%;
+    top: 2px;
+    margin: 0px;
+    margin-left: 151px;
+}
+
+nav [type="button"] {
+    width: 100px;
+    background: white;
+    border: 1px solid;
+}
+
+hr {
+    position: relative;
+    width: 98%;
+}
+
+img:not(#homeIT) {
+    position: relative;
+    bottom: 20px;
+    margin-right: 10px;
+}
+
+main, #right {
+    background: white;
+}
+
+#homeIT {
+    position: relative;
+    margin-top: 15px;
+    margin-left: 3px;
+}
+
+#secondHr {
+    margin-top: 0px;
+}
+
+#firstSection article p {
+    font-size: 13px;
+    font-family: sans-serif;
+    display: inline-block;
+    top: 100px;
+    position: absolute;
+    font-weight: 600;
+}
+
+#firstSection article {
+    margin-top: 15px;
+}
+
+#firstSection a {
+    position: relative;
+    display: inline-block;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+#firstSection p:nth-child(odd) {
+    margin-top: 35px;
+}
+
+#dotsButton {
+    box-shadow: 0px 0px 0px 1px;
+    padding: 0px;
+    font-weight: 600;
+}
+
+#styles {
+    height: 30px;
+    width: 100px;
+    margin-top: 5px;
+    margin-left: 8px;
+    margin-right: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 1px;
+    margin-right: 2px;
+    margin-top: -3px;
+    margin-bottom: 5px;
+}
+
+header > a:-webkit-any-link {
+    color: rgb(169, 11, 11) !important;
+    font-weight: 800;
+    padding: 1px;
+    margin-right: 2px;
+}
+
+ul li a:-webkit-any-link, header > a:-webkit-any-link {
+    color: #000;
+    text-decoration: none;
+    font-size: 11.5px;
+    margin-bottom: 0.8px; 
+}
+
+header div {
+    font-family: sans-serif;
+    font-size: 14px;
+    background: gray;
+    color: white;
+    padding-left: 5px;
+}
+
+article a:-webkit-any-link {
+    padding-bottom: 8px;
+}
+
+a:-webkit-any-link {
+    font-family: sans-serif;
+    font-size: 11px;
+    color: rgb(169, 11, 11);
+    position: relative;
+    display: block;
+}
+
+.label a {
+    position: relative;
+    top: -5px;
+}
+
+.marged {
+    margin-top: 3px;
+}
+
+div > div {
+    margin-right: 1px;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    text-align: center;
+    border: 1px solid gray;
+    padding-bottom: 5px;
+}

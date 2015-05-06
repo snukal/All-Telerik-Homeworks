@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta />
+    <title></title>
+    <link href="4.Problem.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="out">
+        <div>
+            <img src="359.png" />
+            <span>Calculator</span>
+            <div id="windowsButtons">
+                <button class="treeButtons minimize"><img src="minimize.png"/></button>
+                <button class="treeButtons fullscreen"><img src="maximize.png"/></button>
+                <button class="treeButtons exit"><img src="exit.png" /></button>
+            </div>
+        </div>
+        <div id="iner">
+            <div id="line">
+                <span class="optionsButtons"><a>V</a>iew</span>
+                <span class="optionsButtons"><a>E</a>dit</span>
+                <span class="optionsButtons"><a>H</a>elp</span>
+            </div>
+            <div id="display">
+                <span id="displayResult">8854455</span>
+            </div>
+            <div id="zeroNumbers">
+                <div id="firstRow">
+                    <div class="fourZeros">0000</div>
+                    <div class="fourZeros">0000</div>
+                    <div class="fourZeros">0000</div>
+                    <div class="fourZeros">0000</div>
+                    <div class="fourZeros">0000</div>
+                    <div class="fourZeros">0000</div>
+                    <div class="fourZeros">0000</div>
+                    <div class="fourZeros">0000</div>
+                </div>
+                <div id="secondRow">
+                    <div>63</div>
+                    <div class="secondCenter">47</div>
+                    <div>32</div>
+                </div>
+                <div id="thirdRow">
+                    <div class="fourZeros">0000</div>
+                    <div class="fourZeros">0000</div>
+                    <div class="fourZeros">0000</div>
+                    <div class="fourZeros">0000</div>
+                    <div class="fourZeros">0000</div>
+                    <div class="fourZeros">0000</div>
+                    <div class="fourZeros">0000</div>
+                    <div class="fourZeros">0000</div>
+                </div>
+                <div id="fourthRow">
+                    <div>31</div>
+                    <div class="secondCenter">15</div>
+                    <div id="fourthZero">0</div>
+                </div>
+            </div>
+            <div id="calculatorButtons">
+                <div id="firstRowFunctionButtons">
+                    <div id="system">
+                        <div>
+                            <div>
+                                <input type="radio" class=radio name="buttonsSysUpper" id="hex" />
+                                <label for="hex">Hex</label>
+                            </div>
+                            <div>
+                                <input type="radio" class=radio name="buttonsSysUpper" id="dec" />
+                                <label for="dec">Dec</label>
+                            </div>
+                            <div>
+                                <input type="radio" class=radio name="buttonsSysUpper" id="oct" />
+                                <label for="oct">Oct</label>
+                            </div>
+                            <div>
+                                <input type="radio" class=radio name="buttonsSysUpper" id="bin" />
+                                <label for="bin">Bin</label>
+                            </div>
+                        </div>
+                    </div>
+                    <button type=button class="firstThreeRowButtons" id="empty"></button>
+                    <div class="firstThreeRowShort">
+                        <button type=button class="firstThreeRowButtons functions">Mod</button>
+                        <button type=button class="firstThreeRowButtons inactive">A</button>
+                        <button type=button class="firstThreeRowButtons functions">MC</button>
+                        <button type=button class="firstThreeRowButtons functions">MR</button>
+                        <button type=button class="firstThreeRowButtons functions">MS</button>
+                        <button type=button class="firstThreeRowButtons functions">M+</button>
+                        <button type=button class="firstThreeRowButtons functions">M-</button>
+                    </div>
+                    <div class="secondThreeRow">
+                        <button type=button class="firstThreeRowButtons functions">(</button>
+                        <button type=button class="firstThreeRowButtons functions">)</button>
+                        <button type=button class="firstThreeRowButtons inactive">B</button>
+                        <button type=button class="firstThreeRowButtons functions">←</button>
+                        <button type=button class="firstThreeRowButtons functions">CE</button>
+                        <button type=button class="firstThreeRowButtons functions">C</button>
+                        <button type=button class="firstThreeRowButtons functions">±</button>
+                        <button type=button class="firstThreeRowButtons inactive">√</button>
+                    </div>
+                    <div class="thirdThreeRow">
+                        <button type=button class="firstThreeRowButtons functions">RoL</button>
+                        <button type=button class="firstThreeRowButtons functions">RoR</button>
+                        <button type=button class="firstThreeRowButtons inactive">C</button>
+                        <button type=button class="firstThreeRowButtons numbers">7</button>
+                        <button type=button class="firstThreeRowButtons numbers">8</button>
+                        <button type=button class="firstThreeRowButtons numbers">9</button>
+                        <button type=button class="firstThreeRowButtons functions">/</button>
+                        <button type=button class="firstThreeRowButtons inactive">%</button>
+                    </div>
+                </div>
+                <div id="secondRowFunctionButtons">
+                    <div id="system">
+                        <div>
+                            <div>
+                                <input type="radio" class=radio name="buttonsSysUnder" id="qword" />
+                                <label for="qword">Qword</label>
+                            </div>
+                            <div>
+                                <input type="radio" class=radio name="buttonsSysUnder" id="dword" />
+                                <label for="dword">Dword</label>
+                            </div>
+                            <div>
+                                <input type="radio" class=radio name="buttonsSysUnder" id="word" />
+                                <label for="word">Word</label>
+                            </div>
+                            <div>
+                                <input type="radio" class=radio name="buttonsSysUnder" id="byte" />
+                                <label for="byte">Byte</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="firstThreeRowLong">
+                        <button type=button class="firstThreeRowButtons functions">Or</button>
+                        <button type=button class="firstThreeRowButtons functions">Xor</button>
+                        <button type=button class="firstThreeRowButtons inactive">D</button>
+                        <button type=button class="firstThreeRowButtons numbers">4</button>
+                        <button type=button class="firstThreeRowButtons numbers">5</button>
+                        <button type=button class="firstThreeRowButtons numbers">6</button>
+                        <button type=button class="firstThreeRowButtons functions">*</button>
+                        <button type=button class="firstThreeRowButtons inactive">1/x</button>
+                    </div>
+                    <div class="secondThreeRow">
+                        <button type=button class="firstThreeRowButtons functions">Lsh</button>
+                        <button type=button class="firstThreeRowButtons functions">Rsh</button>
+                        <button type=button class="firstThreeRowButtons inactive">E</button>
+                        <button type=button class="firstThreeRowButtons numbers">1</button>
+                        <button type=button class="firstThreeRowButtons numbers">2</button>
+                        <button type=button class="firstThreeRowButtons numbers">3</button>
+                        <button type=button class="firstThreeRowButtons functions">-</button>
+                    </div>
+                    <div class="thirdThreeRow">
+                        <button type=button class="firstThreeRowButtons functions">Not</button>
+                        <button type=button class="firstThreeRowButtons functions">And</button>
+                        <button type=button class="firstThreeRowButtons inactive">F</button>
+                        <button type=button class="firstThreeRowButtons theZeroButton">0</button>
+                        <button type=button class="firstThreeRowButtons inactive">.</button>
+                        <button type=button class="firstThreeRowButtons functions">+</button>
+                        <!--<button type=button class="firstThreeRowButtons"></button>-->
+                        <!--<button type=button class="firstThreeRowButtons"></button>-->
+                    </div>
+                    <div>
+                        <button type=button class="firstThreeRowButtons" id="plusButton"><span id="equalSymbol">=</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

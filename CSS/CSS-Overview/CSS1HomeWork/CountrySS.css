@@ -1,0 +1,65 @@
+﻿/*table{
+    border : 2px solid #a1a1a1;
+    border-radius : 10px;
+    background : #dddddd;
+    width : 300px;
+    padding : 0;
+}
+table th {
+    background : #8cefc4;
+    opacity : 0.5;
+    border : brown;
+    border-radius : 10px;
+}
+
+/*table, th {
+    border: 1px solid green;
+    border-radius : 10px;
+    border-collapse : collapse;
+}*/
+#lastColumn{
+    width : 15%;
+}
+
+#firstColumn{
+    width : 30%;
+}
+
+#contacts{
+    font-family : "Trebuchet MS", Arial, Halvetica, sans-serif;
+    width: 700px;
+    border-collapse : collapse;
+}
+
+#contacts td, #contacts th{
+    font-size : 1em;
+    border-right : 1.5px;
+    border-right-style : groove;
+    padding-left : 0.5em;
+    text-align : left;
+}
+
+#contacts th{
+    color : white;
+    background-color : #a7c942;
+    border-bottom : 1.5px solid gray;
+    border-bottom-style : groove;
+    border-style : inset;
+}
+
+#contacts tr.alt td{
+    background-color : #EAF2D3;
+}
+#contacts td.checkBox{
+    vertical-align : middle;
+}
+img.resize{
+    float : left;
+    width : 20px;
+    padding-top: 0.2em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+}
+tr{
+    height : 40px;
+}

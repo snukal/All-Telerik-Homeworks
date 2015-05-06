@@ -1,0 +1,76 @@
+﻿body {
+    background-color : gray;
+    font-size : 12px;
+    font-family : Arial;
+}
+
+body > p {
+    color : lightgray;
+    font-size : 1.5em;  
+}
+
+td.grayForamt{
+    color : lightgray !important;
+    padding-bottom : 0em !important;
+    vertical-align: text-top;
+}
+
+.status{
+    /*padding-right : 6em;*/
+    padding-top : 2em;
+    padding-bottom : 0 !important;
+}
+
+#Padding{
+    padding-right : 6em;
+    padding-bottom : 1em;
+}
+#Support{
+    padding-top : 0.5em;
+    color: red;
+    font-style : italic;
+}
+
+#park{
+    color : #FFFFB2;
+    vertical-align : central;
+    padding-bottom : 1em;
+}
+
+#padd1{
+    padding-bottom : 1em !important;
+    padding-top : 0em;
+}
+
+#padd2{
+    padding-bottom : 0em !important;
+    padding-top : 0em !important;
+}
+
+#lastAction{
+    padding-top : -1em;
+}
+
+#not{
+    color : orange;
+}
+
+td:first-of-type{
+    color : white;
+    font-style : italic;
+    padding-right : 6em;
+    padding-bottom : 1em;
+    vertical-align: text-top;
+}
+
+td:nth-child(even){
+    padding-bottom : 1em;
+    color : #FFFFB2;
+    vertical-align : text-top;
+}
+
+img.resize{
+    float : left;
+    width : 14px;
+    height : auto; 
+}

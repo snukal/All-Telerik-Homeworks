@@ -1,0 +1,121 @@
+body {
+    margin: 0px;
+}
+
+div:first-child {
+    position: relative;
+    background-color: #3b3b3b;
+    width: 48.5%;
+    height: 298px;
+    border-radius: 8px;
+}
+
+button:focus {
+    outline: none;
+}
+
+a{
+    color: white;
+}
+
+#total {
+    color: #f1dc0f;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 31px;
+}
+
+#headercontent {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    color: #fff;
+    font-size: x-large;
+    margin-left: 27px;
+    padding-right: 170%;
+    margin-right: 88%;
+    float: left;
+    width: 170px;
+}
+
+    #headercontent > span {
+        position: relative;
+        left: 28px;
+    }
+
+#monitor {
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+
+#yourname {
+    position: absolute;
+    left: 26.5%;
+    width: 142px;
+    top: 10%;
+}
+
+#email {
+    position: absolute;
+    left: 51%;
+    top: 10%;
+    width: 142px;
+}
+
+#mainPart {
+    margin-top: 15px;
+    height: 35%;
+    background-color: #3b3b3b;
+    position: absolute;
+    padding-right: 206.2%;
+    padding-bottom: 39%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: -1px -4px 24px -6px;
+}
+
+#replacement-2 {
+    position: relative;
+    top: -26px;
+    width: 57px;
+    height: 29px;
+    margin-left: 538px;
+    border: 0px;
+    border-radius: 10px;
+    background: rgba(241, 79, 79, 0) url(go_button_pic.png) no-repeat center;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+    #replacement-2:hover {
+        box-shadow: 0px 0px 22px rgba(253, 253, 253, 1);
+        transition: 0.5s;
+    }
+
+    #replacement-2:active {
+        box-shadow: 0px 0px 32px #33CCFF;
+        transition: 30ms;
+        border: 1px outset white;
+        padding-top: 0px;
+    }
+
+#mainPart>#main_text {
+    position: absolute;
+    top: 69px;
+    left: 20px;
+    font-size: 13px;
+    color: #B5ACAC;
+    font-family: consolas;
+    letter-spacing: 0px;
+    line-height: 20px;
+    word-spacing: -2px;
+    text-align: left;
+}
+
+:focus {
+    box-shadow: 0px 0px 22px #FFF842;
+    transition: 0.3s;
+    outline: none;
+}

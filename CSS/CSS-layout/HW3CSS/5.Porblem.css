@@ -1,0 +1,123 @@
+﻿html, body, div, span, aside, main, article, p, fieldset, [type="range"] {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 65%;
+    height: 640px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+nav {
+    text-align: center;
+    height: 40px;
+    position: relative;
+    padding-top: 15px;
+    font-size: 1.68em;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+fieldset {
+    padding-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+legend {
+    margin-left: 40px;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a {
+    color: #00ABEF;
+}
+
+p {
+    padding-bottom: 5px;
+    font-size: 1.5em;
+    font-family: calibri;
+}
+
+span {
+    position: relative;
+    bottom: 15px;
+    font-family: calibri;
+}
+
+main > div:first-child {
+    border: 2px solid black;
+    position: relative;
+    display: inline-block;
+    top: 13px;
+    left: 10px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    border-radius: 2px;
+}
+
+main > div div {
+    display: -webkit-box;
+}
+
+fieldset div:nth-child(2) {
+    display: inline-block;
+    top: 0px;
+}
+
+fieldset div:nth-child(3) {
+    display: inline-block;
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+}
+
+form {
+    display: inline-block;
+    position: absolute;
+    padding-left: 21px;
+    bottom: 420px;
+    font-size: xx-large;
+}
+
+#secondform {
+    bottom: 325px;
+}
+
+#thirdForm {
+    bottom: 225px;
+}
+
+#fourtForm {
+    bottom: 125px;
+}
+
+#rightAside{
+    display:inline-block;
+}
+.price {
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+#separator {
+    border: 1px solid black;
+    margin-left: 27px;
+    margin-right: 27px;
+}
+
+[type="range"] {
+    display: block;
+    width: 200px;
+    margin-left: 20px;
+}

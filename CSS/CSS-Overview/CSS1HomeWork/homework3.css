@@ -1,0 +1,54 @@
+﻿body {
+    background-color: #a1a1a1;
+}
+
+nav a:-webkit-any-link {
+    color: #FDFDF7;
+    text-decoration: none;
+    cursor: auto;
+}
+
+header {
+    color: #f6f5d4;
+    font-weight: bold;
+}
+
+.current {
+    background: #DAD9D9;
+}
+
+.center {
+    text-align: center;
+    color: #f6f5d4;
+    font-weight: bold;
+}
+
+ul {
+    font-size : 120%;
+    list-style-type: none;
+}
+
+ul li:last-child a:last-child {
+    text-decoration: underline;
+}
+
+body section article p:last-child {
+    font-size: 75%;
+}
+
+body section article p:last-child a {
+    text-decoration: none;
+    color: #000000;
+}
+
+body section footer{
+    text-align : left;
+}
+
+body footer{
+    text-align: center;
+}
+
+nav h1 {
+    font-size: 250%;
+}
