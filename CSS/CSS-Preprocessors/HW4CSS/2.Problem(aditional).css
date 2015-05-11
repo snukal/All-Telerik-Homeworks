@@ -1,0 +1,13 @@
+﻿div a img{
+    width: 200px;
+}
+div img{
+    width: 50%;
+}
+#first,#second, #third, #fourth, #fifth, #sixth {
+  display: none;
+}
+
+div #first:target, div #second:target, div #third:target, div #fourth:target, div #fifth:target, div #sixth:target {
+  display: block;
+}
